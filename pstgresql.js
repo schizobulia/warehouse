@@ -1,13 +1,13 @@
-// var pg = require('pg');
+// let pg = require('pg');
 
-var promise = require('bluebird'); // or any other Promise/A+ compatible library;
-var options = {
+const promise = require('bluebird'); // or any other Promise/A+ compatible library;
+const options = {
     promiseLib: promise, // default promise override;
 };
-var pgp = require('pg-promise')(options);
+const pgp = require('pg-promise')(options);
 
 // 数据库配置
-var config = {
+let config = {
     user: "postgres",
     database: "cishi",
     password: "123456",
@@ -17,19 +17,59 @@ var config = {
     max: 20, // 连接池最大连接数
     idleTimeoutMillis: 3000, // 连接最大空闲时间 3s
 }
-var db = pgp(config);
 
-var array = ['1', '2'];
-db.any('SELECT * FROM teacher WHERE id in ($1:csv)', [array])
-    .then(function (data) {
-        console.log(data);
-    }).catch(function (err) {
-        console.log(err);
-    });
+//官方文档：https://www.npmjs.com/package/pg-promise
+
+/**
+ * 使用第三方的包:pg-promise  读取
+ */
+let db = pgp(config);
+
+/**
+ * 查询多条
+ * 查询id 为 1 2 的数据 但有时需要将table的name 加双引号
+ */
+// let array = ['1', '2'];
+// db.any('SELECT * FROM teacher WHERE id in ($1:csv)', [array])
+//     .then(function (data) {
+//         console.log(data);
+//     }).catch(function (err) {
+//         console.log(err);
+//     });
 
 
-// 创建连接池
-// var pool = new pg.Pool(config);
+/**
+ * 查询单条(单条件)
+ */
+
+// db.any('SELECT * FROM teacher WHERE name = $1', 'aaa')
+//     .then(function (data) {
+//         console.log(data);
+//     }).catch(function (err) {
+//         console.error(err);
+//     });
+
+/**
+ * 多条件查询
+ */
+
+// db.any('SELECT * FROM teacher WHERE name = ${name} AND pwd = ${pwd}', {
+//     name: 'bbb',
+//     pwd: '111'
+// }).then(function (data) {
+//     console.log(data);
+// }).catch(function (err) {
+//     console.error(err);
+// });
+
+
+
+
+/**
+ * 连接池的方式连接 
+ */
+
+// let pool = new pg.Pool(config);
 
 // pool.on('acquire', function (client) {
 //     console.log("acquire Event");
@@ -58,9 +98,9 @@ db.any('SELECT * FROM teacher WHERE id in ($1:csv)', [array])
 //         }
 
 //         if (results.rowCount > 0) {
-//             var firstResult,
+//             let firstResult,
 //                 resultSet = '';
-//             for (var i = 0, len = results.rowCount; i < len; i++) {
+//             for (let i = 0, len = results.rowCount; i < len; i++) {
 //                 firstResult = results.rows[i];
 //                 resultSet += 'id:' + firstResult['id'] + ' ' + 'name:' + firstResult['name'] + ' ' +
 //                     'pwd:' + firstResult['pwd'] + '\n';

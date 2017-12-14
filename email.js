@@ -4,7 +4,7 @@ const transporter = nodemailer.createTransport({
     service: 'qq',
     auth: {
         user: '2833324528@qq.com',
-        pass: 'jcjgquiuerzxdcge'
+        pass: ''//这里为qq的密要
 
     }
 });
