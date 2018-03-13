@@ -6,3 +6,4 @@
     - redis: redis
     - request: http请求
     - saveImage: 保存图片
+    - socket: 一个完整的websocket案例
