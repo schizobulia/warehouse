@@ -1,11 +1,12 @@
 const mysql = require('mysql');
+const fs = require('fs');
 
 const Con = mysql.createPool({
-    connectionLimit: 10,
+    connectionLimit: 100,
     host: 'localhost',
     user: 'root',
     password: '123456',
-    database: 'graduate'
+    database: 'movement'
 });
 
 /**
@@ -26,6 +27,7 @@ let query = function (sql, values) {
                     } else {
                         resolve(rows);
                     }
+                    connection.destroy();
                 });
             }
         });
@@ -84,13 +86,11 @@ async function addCol(tableName, col, type) {
     console.log(result);
 }
 
-
 /**
  *删除一行 
  * @param {*} mmap 
- * delThis('user', {email: '15135460425@163.com'});
  */
-delThis('ajunk', {title: '这是测试账号'});
+//delThis('user', {email: '15135460425@163.com'});
 async function delThis(tableName, mmap) {
     let key;
     for (let s in mmap) {
@@ -98,7 +98,6 @@ async function delThis(tableName, mmap) {
     }
     value = `DELETE FROM ${tableName} WHERE ${key} = '${mmap[key]}'`;
     await query(value);
-    console.log('ok');
 }
 
 /**
@@ -111,7 +110,6 @@ async function delThis(tableName, mmap) {
 async function constraint(tableName, col) {
     value = `ALTER TABLE ${tableName} ADD unique(${col})`;
     await query(value);
-    console.log('ok');
 }
 
 /**
@@ -122,23 +120,32 @@ addMsg('ajunk', {title: '测试', content: '测试', userId: 'adawadczxc'});
 
 async function addMsg(tableName, map) {
     value = `INSERT INTO ${tableName} SET ?`;
-    await query(value, map);
-    console.log('ok');
+    let result = await query(value, map);
+    console.log(result);
+    if (result) {
+        return true;
+    } else {
+        return false;
+    }
+}
+/**
+ * 两张表之间的关联
+ * @param {*} tableName1  外键表 
+ * @param {*} tableName2  主键表
+ * @param {*} key1 外键
+ * @param {*} key2 主键
+ * @param {*} tag  外键标识
+ * mainkey('users', 'scholl', 'scholl_id', 'scholl_id', 'fk_7');
+ */
+async function mainkey(tableName1, tableName2, key1, key2, tag) {
+    value = "alter table `" + tableName1 + '` add constraint `' + tag + '` foreign key (`' + key1 + '`) references `' + tableName2 + '` (`' + key2 + '`)';
+    const result = await query(value);
 }
 
-
-
-let map = {
-    ajunkId: 'int(11) not null',
-    // desc: 'TEXT',
-    // imgs: 'varchar',
-    // money: 'int(10) not null',
-    // time: 'Time not null',
-    // userId: 'int(11) not null',
-
+/**
+ * 更新
+ */
+async function update(key, value, id, idvalue) {
+    let result = await query("update `users` set ` " + key + "`= " + value + " where `" + id + "` = " + idvalue + " limit 1");
 }
-
-
-// addCol('ajunk', 'star', 'int(11)');
-// createTable('message', map);
 
