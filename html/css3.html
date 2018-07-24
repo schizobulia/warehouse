@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*CSS*/
+
+        img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            z-index: 1;
+            height: 160px;
+            width: 100%;
+        }
+
+        .line {
+            position: absolute;
+            top: 5px;
+            z-index: 2;
+            height: 2px;
+            background-color: blue;
+            width: 100%;
+            /*动画效果*/
+            animation: myScan 1s infinite alternate;
+            -webkit-animation: myScan 1s infinite alternate;
+        }
+
+        @keyframes myScan {
+
+            from {
+                top: 5px;
+            }
+
+            to {
+                top: 170px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="line"></div>
+    <img src="http://www.51jcjgzy.cn/public/img/lhcwx.jpg" alt="">
+</body>
+
+</html>
