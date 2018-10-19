@@ -6,7 +6,7 @@ const Con = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '123456',
-    database: 'movement'
+    database: 'esc'
 });
 
 /**
@@ -149,3 +149,18 @@ async function update(key, value, id, idvalue) {
     let result = await query("update `users` set ` " + key + "`= " + value + " where `" + id + "` = " + idvalue + " limit 1");
 }
 
+async function all() {
+    let result = await query("select * from pf_sys_log");
+    let a = '';
+    result.map((e, i) => {
+        a += (JSON.stringify([
+            { "index": { "_id": i } }
+        ]) + '/n');
+        a += (JSON.stringify(e) + '/n');
+    });
+
+    fs.writeFileSync('data.json', JSON.stringify(a), (err) => {
+        console.log(err);
+    })
+}
+all();
