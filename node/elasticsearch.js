@@ -1,7 +1,8 @@
 var elasticsearch = require('elasticsearch');
 var client = new elasticsearch.Client({
-    host: 'http://192.168.88.100:9200/',
+    host: 'http://192.168.88.192:9200/trails-181031/session',
 });
+var fs = require('fs');
 
 
 /**
@@ -18,54 +19,44 @@ async function getNumByDocName(doc_index) {
 /**
  * 需要对数据验证
  * 获取所有数据
- * cs('bank')
+ * cs('bank', {sql})
  */
-async function getAll(doc_index) {
+async function getAll(doc_index, body) {
     let responseQueue = [];
     let data = [];
-    let count = [];
     let one = await client.search({
+        size: 5000,
         index: doc_index,
-        // body: {
-        //     "query": {
-        //         "match_phrase": {
-        //             "age": "25"
-        //         }
-        //     }
-        // },
+        body: body,
         scroll: '30s',
     }).catch((e) => {
         console.log(e);
     });
-    console.log(one)
+    console.log('start')
     responseQueue.push(one);
-    data.push(one.hits.hits);
+    let i = 0;
     while (responseQueue.length) {
         const response = responseQueue.shift();
+        if (data.length > 10000) {
+            i++;
+            await fs.writeFileSync(`./mdata/${i}.json`, data);
+            data = [];
+        }
         response.hits.hits.map((e) => {
-            count.push(e._index);
+            data.push(e);
         });
-
-        if (count.length === response.hits.total) {
+        if (response.hits.hits.length === 0) {
             break;
         }
-        let s = await client.scroll({
+        let scroll_data = await client.scroll({
             scrollId: response._scroll_id,
             scroll: '30s',
-        }).catch((e) => { });
-        responseQueue.push(s);
-        data.push(s.hits.hits);
+        }).catch((e) => { console.log(e) });
+        responseQueue.push(scroll_data);
+        scroll_data = null;
     }
-    let alldata = [];
-    data.map((e) => {
-        alldata = alldata.concat(e);
-    });
-    alldata.map((e) => {
-        if (e._id === 648) {
-            console.log(i)
-        }
-    })
-    return alldata;
+    console.log('end');
+    return 'end';
 }
 
 /**
@@ -81,28 +72,31 @@ async function query_subnet_ip(doc_index) {
 }
 
 
+/**
+ * 建议使用http去创建
+ * @param {*} _index 
+ * @param {*} data 
+ */
 async function createIndex(_index, data) {
     return await client.create({
         index: _index,
-        type: 'doc',
-        id: '1',
+        type: 'session',
+        number_of_shards: 0,
+        number_of_replicas: 0,
+        id: '10',
         body: data,
     });
 }
 
 /**
- * 插入一天数据
- * inster('users', {
-    name: 'asdasdasdasdada', password: 'asdasdasdasd', icon: '/public/img/favicons.png',
-    tag: 'asdasda', address: 'asdsadasd', department: 'asdasdsad', permissions: 'asdasdasd',
-   });
+ * 插入数据
  * @param {*} _index 
  * @param {*} data 
  */
-function inster(_index, data) {
+function inster(_index, data, type) {
     client.bulk({
         body: [
-            { index: { _index: _index, _type: 'use', _id: 2 } },
+            { index: { _index: _index, _type: type, _id: new Date().getTime() } },
             { field1: data },
         ]
     }, function (err, resp) {
@@ -125,3 +119,38 @@ async function isExties(_index, sql) {
         body: sql,
     });
 }
+
+/**
+ * 按月查询次数
+ */
+async function getDataByTime() {
+    const sql = {
+        "size": 0,
+        "query": {
+            "match_phrase": {
+                "dstIP": {
+                    "query": "59.252.32.235"
+                }
+            }
+        },
+        "aggs": {
+            "sales": {
+                "date_histogram": {
+                    "field": "@timestamp",
+                    "interval": "month",
+                    "format": "yyyy-MM-dd"
+                }
+            }
+        }
+    };
+    return await client.search({
+        index: 'dns_log-2017040316',
+        body: sql,
+    });
+}
+
+
+async function main() {
+    
+}
+main();
