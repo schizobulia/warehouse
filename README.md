@@ -3,9 +3,13 @@
 - ### 运维
     + [自动生成https的工具](https://certbot.eff.org/)
     + [易用的翻墙工具](https://github.com/XX-net/XX-Net)
+    + [python的一个环境管理工具](https://github.com/pypa/pipenv)
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
     + [一个轻量级的Java 开发框架](https://spring.io/)
+- ### 爬虫
+    + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
+    + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
 - ### H5
     + [中国首个开源 HTML5 跨屏前端框架](http://amazeui.org/)
     + [蚂蚁金服开源React组建库](https://ant.design/)
@@ -17,6 +21,5 @@
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
     + [Kibana 让您能够可视化 Elasticsearch 中的数据并操作 Elastic Stack](https://www.elastic.co/cn/products/kibana)
-    + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
 - ### 网络安全
     + [开源威胁情报收集AlienVault](https://otx.alienvault.com/)
