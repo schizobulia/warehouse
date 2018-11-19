@@ -149,8 +149,29 @@ async function getDataByTime() {
     });
 }
 
-
-async function main() {
-    
+/**
+ * 更新doc根据query
+ */
+async function updateByQuery() {
+    return await client.updateByQuery({
+        index: 'sess*',
+        body: {
+            "query": {
+                "bool": {
+                    "filter": [
+                        {
+                            "terms": {
+                                "name": ['a', 'b']
+                            }
+                        },
+                    ]
+                }
+            },
+            "script": {
+                "source": "ctx._source['isthreat']='1';"
+            }
+        }
+    }).catch((e) => console.log(e));
 }
+
 main();
