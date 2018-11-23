@@ -11,7 +11,7 @@
     + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
     + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
 - ### H5
-    + [中国首个开源 HTML5 跨屏前端框架](http://amazeui.org/)
+    + [中国首个开源 HTML5 跨屏前端s框架](http://amazeui.org/)
     + [蚂蚁金服开源React组建库](https://ant.design/)
     + [让WebApp更接近于原生App](https://lavas.baidu.com/pwa)
     + [百度的Echarts](http://www.echartsjs.com/index.html)

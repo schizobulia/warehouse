@@ -41,7 +41,7 @@ function getSuffixName(fileName) {
 function uploadFile(ctx, options, type) {
   let req = ctx.req;
   let res = ctx.res;
-  let busboy = new Busboy({ headers: req.headers});
+  let busboy = new Busboy({ headers: req.headers });
 
 
 
