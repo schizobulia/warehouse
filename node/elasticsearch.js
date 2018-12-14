@@ -1,3 +1,7 @@
+/**
+ * 以下方法仅仅适用于脚本中使用(一些优化手段并未考虑)，真实项目中请注意关闭client。
+ */
+
 var elasticsearch = require('elasticsearch');
 var client = new elasticsearch.Client({
     host: 'http://192.168.88.192:9200/trails-181031/session',
