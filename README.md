@@ -27,6 +27,7 @@
     + [世界各国国旗的icon](https://github.com/lafeber/world-flags-sprite)
     + [Ant Design资源](https://github.com/websemantics/awesome-ant-design)
     + [HTML5拓扑图](http://visjs.org/)
+    + [React代码高亮显示的插件](https://github.com/conorhastings/react-syntax-highlighter)
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
     + [Kibana 让您能够可视化 Elasticsearch 中的数据并操作 Elastic Stack](https://www.elastic.co/cn/products/kibana)

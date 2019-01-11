@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const readline = require('readline');
 // =====================node对文件的操作==============================
 
 /**
@@ -44,4 +44,24 @@ async function getFile() {
         if (is === '.jpg') {
         }
     }
+}
+
+
+/**
+ * 逐行读取文件
+ * @param {*} file 
+ * @param {*} callback 
+ */
+function readLine(file, callback) {
+    const read = fs.createReadStream(file);
+    const objreadline = readline.createInterface({
+        input: read,
+    });
+    let arr = [];
+    objreadline.on('line', (line) => {
+        arr.push(line);
+    });
+    objreadline.on('close', async () => {
+        callback(arr);
+    })
 }
