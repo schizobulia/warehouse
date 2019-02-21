@@ -28,10 +28,14 @@
     + [Ant Design资源](https://github.com/websemantics/awesome-ant-design)
     + [HTML5拓扑图](http://visjs.org/)
     + [React代码高亮显示的插件](https://github.com/conorhastings/react-syntax-highlighter)
+    + [javascript动画库](https://createjs.com/)
+    + [Three.js(WebGL)](https://threejs.org/)
+    + [使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
     + [Kibana 让您能够可视化 Elasticsearch 中的数据并操作 Elastic Stack](https://www.elastic.co/cn/products/kibana)
     + [Spark是为大规模数据处理而设计的快速通用的计算引擎](http://spark.apache.org/)
+    + [分布式、分区、提交后复制的日志服务-Kafka](http://kafkadoc.beanmr.com/010_getting_started/01_introduction_cn.html)
 - ### 网络安全
     + [开源威胁情报收集AlienVault](https://otx.alienvault.com/)
     + [有多少数据库裸奔在互联网上](https://www.shodan.io/)
@@ -40,7 +44,9 @@
 - ### 平台
     + [在浏览器中使用真实环境学习新技术](https://www.katacoda.com/)
     + [比较便宜的云服务器(国外)](https://www.digitalocean.com/)
-    + [GRAPHQL平台)](https://www.apollographql.com/docs/)
+    + [GRAPHQL平台](https://www.apollographql.com/docs/)
+    + [凹凸实验室](https://aotu.io/)
+    + [各种前端的框架与库](https://www.awesomes.cn/)
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
     + [Apache Spark 官方文档中文版](https://github.com/apachecn/spark-doc-zh)
