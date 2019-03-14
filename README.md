@@ -14,9 +14,11 @@
     + [用于构建高效且可伸缩Web应用程序的渐进式 Node.js 框架](https://nestjs.com/)
     + [Egg.js插件，工具，教程，文章等等](https://github.com/eggjs/awesome-egg)
     + [Maven中心仓库](https://mvnrepository.com/)
+    + [Jfinal快速的Web开发框架(中国)](https://www.jfinal.com/doc)
 - ### 爬虫
     + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
     + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
+    + [Scrapy是一个快速的高层次的屏幕抓取和网页爬虫框架](http://www.scrapyd.cn/)
 - ### 前端
     + [中国首个开源 HTML5 跨屏前端s框架](http://amazeui.org/)
     + [蚂蚁金服开源React组建库](https://ant.design/)
