@@ -4,7 +4,7 @@
 
 var elasticsearch = require('elasticsearch');
 var client = new elasticsearch.Client({
-    host: 'http://192.168.88.192:9200/trails-181031/session',
+    host: 'http://127.0.0.1:9200',
 });
 var fs = require('fs');
 
@@ -84,9 +84,9 @@ async function query_subnet_ip(doc_index) {
 async function createIndex(_index, data) {
     return await client.create({
         index: _index,
-        type: 'session',
-        number_of_shards: 0,
-        number_of_replicas: 0,
+        type: '_doc',
+        number_of_shards: 1,
+        number_of_replicas: 5,
         id: '10',
         body: data,
     });
@@ -177,5 +177,10 @@ async function updateByQuery() {
         }
     }).catch((e) => console.log(e));
 }
+
+function main() {
+
+}
+
 
 main();

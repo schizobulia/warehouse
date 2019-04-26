@@ -20,10 +20,11 @@
     + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
     + [Scrapy是一个快速的高层次的屏幕抓取和网页爬虫框架](http://www.scrapyd.cn/)
 - ### 前端
-    + [中国首个开源 HTML5 跨屏前端s框架](http://amazeui.org/)
+    + [中国首个开源 HTML5 跨屏前端框架](http://amazeui.org/)
     + [蚂蚁金服开源React组建库](https://ant.design/)
     + [让WebApp更接近于原生App](https://lavas.baidu.com/pwa)
     + [百度的Echarts](http://www.echartsjs.com/index.html)
+    + [Highcharts 是一个用纯JavaScript编写的一个图表库](https://www.highcharts.com/)
     + [Gio.js 是一个基于Three.js的web 3D地球数据可视化的开源组件库](https://github.com/syt123450/giojs/blob/master/README_zh.md)
     + [CesiumJS是一个JavaScript库，用于在没有插件的情况下在Web浏览器中创建3D地球仪和2D地图](https://github.com/AnalyticalGraphicsInc/cesium)
     + [世界各国国旗的icon](https://github.com/lafeber/world-flags-sprite)
@@ -41,6 +42,8 @@
 - ### 网络安全
     + [开源威胁情报收集AlienVault](https://otx.alienvault.com/)
     + [有多少数据库裸奔在互联网上](https://www.shodan.io/)
+    + [个人信息泄漏检测工具](https://monitor.firefox.com/)
+    + [ZoomEye是一款针对网络空间的搜索引擎，收录了互联网空间中的设备、网站及其使用的服务或组件等信息。](https://www.zoomeye.org/)
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
 - ### 平台
@@ -49,7 +52,13 @@
     + [GRAPHQL平台](https://www.apollographql.com/docs/)
     + [凹凸实验室](https://aotu.io/)
     + [各种前端的框架与库](https://www.awesomes.cn/)
+    + [设计百宝箱](https://uirush.com/)
+    + [免费压缩图片](https://tinypng.com/)
+    + [免费CDN仓库](http://www.staticfile.org/)
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
     + [Apache Spark 官方文档中文版](https://github.com/apachecn/spark-doc-zh)
     + [一些大数据与机器学习的框架(中文文档)](http://cwiki.apachecn.org/spacedirectory/view.action)
+
+- ### Other Awesome Lists
+    + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
