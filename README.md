@@ -8,6 +8,8 @@
     + [免费给别人发送代码片段(阅后即焚)](https://privatebin.net)
     + [Hexo 是一个快速、简洁且高效的博客框架(配合github使用)](https://hexo.io/zh-cn/)
     + [可视化网站访问统计数据](http://clustrmaps.com/)
+    + [为ELK提供免费的加密工具](https://search-guard.com/)
+    + [一组有用的.gitignore模板](https://github.com/github/gitignore)
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
     + [一个轻量级的Java 开发框架](https://spring.io/)
@@ -15,6 +17,7 @@
     + [Egg.js插件，工具，教程，文章等等](https://github.com/eggjs/awesome-egg)
     + [Maven中心仓库](https://mvnrepository.com/)
     + [Jfinal快速的Web开发框架(中国)](https://www.jfinal.com/doc)
+
 - ### 爬虫
     + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
     + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
@@ -34,6 +37,7 @@
     + [javascript动画库](https://createjs.com/)
     + [Three.js(WebGL)](https://threejs.org/)
     + [使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
+    + [BizCharts主打电商业务图表可视化，沉淀电商业务线的可视化规范。](https://github.com/alibaba/BizCharts)
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
     + [Kibana 让您能够可视化 Elasticsearch 中的数据并操作 Elastic Stack](https://www.elastic.co/cn/products/kibana)
@@ -44,6 +48,10 @@
     + [有多少数据库裸奔在互联网上](https://www.shodan.io/)
     + [个人信息泄漏检测工具](https://monitor.firefox.com/)
     + [ZoomEye是一款针对网络空间的搜索引擎，收录了互联网空间中的设备、网站及其使用的服务或组件等信息。](https://www.zoomeye.org/)
+    + [privacytools.io提供知识和工具，以保护您的隐私免受全球大规模监控。](https://www.privacytools.io/)
+    + [360威胁情报中心](https://ti.360.net/)
+    + [RedQueen安全智能服务平台](https://redqueen.tj-un.com/IntelHome.html)
+    + [很NB的词库](https://github.com/fighting41love/funNLP)
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
 - ### 平台
@@ -51,14 +59,21 @@
     + [比较便宜的云服务器(国外)](https://www.digitalocean.com/)
     + [GRAPHQL平台](https://www.apollographql.com/docs/)
     + [凹凸实验室](https://aotu.io/)
+    + [PoPo 数据可视化](http://www.popodv.com/)
+    + [百度FEX前端研发部](http://fex.baidu.com/)
     + [各种前端的框架与库](https://www.awesomes.cn/)
     + [设计百宝箱](https://uirush.com/)
     + [免费压缩图片](https://tinypng.com/)
     + [免费CDN仓库](http://www.staticfile.org/)
+    + [图片压缩](https://squoosh.app/)
+    + [浙江大学可视分析小组博客](http://www.cad.zju.edu.cn/home/vagblog/)
+    + [InFoQ社区](https://www.infoq.cn/)
+    + [常用正则表达式验证与生成](http://tools.jb51.net/regex/create_reg)
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
     + [Apache Spark 官方文档中文版](https://github.com/apachecn/spark-doc-zh)
     + [一些大数据与机器学习的框架(中文文档)](http://cwiki.apachecn.org/spacedirectory/view.action)
+    + [Node.js中文文档](http://nodejs.cn/api/)
 
 - ### Other Awesome Lists
     + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
