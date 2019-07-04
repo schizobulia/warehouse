@@ -11,6 +11,8 @@
     + [为ELK提供免费的加密工具](https://search-guard.com/)
     + [一组有用的.gitignore模板](https://github.com/github/gitignore)
     + [Node.js敏感词过滤库](https://github.com/pyloque/fastscan)
+    + [底噪 | 黑苹果合集](https://zhih.me/)
+    + [搭建属于自己的CDN](https://www.jsdelivr.com/)
 
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
@@ -50,6 +52,7 @@
     + [Apache Tika - 内容分析工具包](https://tika.apache.org/)
     + [javascript全文检索](https://github.com/olivernn/lunr.js/)
     + [一些免费的数据集](https://skymind.ai/wiki/open-datasets)
+    + [很NB的词库](https://github.com/fighting41love/funNLP)
 
 - ### 网络安全
     + [开源威胁情报收集AlienVault](https://otx.alienvault.com/)
@@ -59,12 +62,11 @@
     + [privacytools.io提供知识和工具，以保护您的隐私免受全球大规模监控。](https://www.privacytools.io/)
     + [360威胁情报中心](https://ti.360.net/)
     + [RedQueen安全智能服务平台](https://redqueen.tj-un.com/IntelHome.html)
-    + [很NB的词库](https://github.com/fighting41love/funNLP)
 
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
 
-- ### 平台
+- ### 平台与工具
     + [在浏览器中使用真实环境学习新技术](https://www.katacoda.com/)
     + [比较便宜的云服务器(国外)](https://www.digitalocean.com/)
     + [GRAPHQL平台](https://www.apollographql.com/docs/)
@@ -83,6 +85,10 @@
     + [国际化翻译的搜索网站](https://i18ns.com/)
     + [工具箱](http://www.atoolbox.net/)
     + [在线工具](https://tool.oschina.net/)
+    + [前端开发博客](http://caibaojian.com/)
+    + [码农周刊](https://github.com/toutiaoio/weekly.manong.io)
+    + [html校验](https://validator.w3.org/)
+    + [ctolib代码库](https://www.ctolib.com/)
 
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
@@ -91,6 +97,9 @@
     + [Node.js中文文档](http://nodejs.cn/api/)
     + [对开发人员有用的定律、理论、原则和模式](https://github.com/nusr/hacker-laws-zh)
     + [基于项目的学习](https://github.com/tuvtran/project-based-learning)
+    + [es6中文文档](http://caibaojian.com/es6/)
+    + [python3 Api文档](https://docs.python.org/3/)
+    + [Google代码风格](https://github.com/google/styleguide)
 
 - ### 一些好看的效果
     + [三维地图](http://globe.cid.harvard.edu/)
@@ -101,3 +110,6 @@
     + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
     + [A curated list of useful resources for gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
     + [A curated list of neural architecture search (NAS) resources.](https://github.com/D-X-Y/Awesome-NAS)
+    + [Awesome Hunt](https://awehunt.com)
+    + [为互联网IT人打造的中文版awesome-go](https://github.com/hackstoic/golang-open-source-projects)
+    + [成为专业程序员路上用到的各种优秀资料、神器及框架](https://thonatos.gitbooks.io/be-a-professional-programmer/)
