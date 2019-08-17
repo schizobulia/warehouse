@@ -13,6 +13,9 @@
     + [Node.js敏感词过滤库](https://github.com/pyloque/fastscan)
     + [底噪 | 黑苹果合集](https://zhih.me/)
     + [搭建属于自己的CDN](https://www.jsdelivr.com/)
+    + [linux命令在线查询](https://wangchujiang.com/linux-command/)
+    + [零配置Web框架](https://zeroserver.io/)
+    + [Apache OpenWhisk是一个无服务器的基于事件的编程服务和一个Apache Incubator项目](https://github.com/apache/openwhisk)
 
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
@@ -43,6 +46,9 @@
     + [Three.js(WebGL)](https://threejs.org/)
     + [使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
     + [BizCharts主打电商业务图表可视化，沉淀电商业务线的可视化规范。](https://github.com/alibaba/BizCharts)
+    + [流程图](https://mermaidjs.github.io/#/)
+    + [React Native组件库](https://github.com/GeekyAnts/NativeBase)
+    + [用于javascript的跨浏览器QRCode生成器](https://github.com/davidshimjs/qrcodejs)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -72,10 +78,8 @@
     + [GRAPHQL平台](https://www.apollographql.com/docs/)
     + [Scratch是MIT媒体实验室终生幼儿园小组开发的一个免费项目](https://scratch.mit.edu/)
     + [凹凸实验室](https://aotu.io/)
-    + [PoPo 数据可视化](http://www.popodv.com/)
     + [百度FEX前端研发部](http://fex.baidu.com/)
     + [各种前端的框架与库](https://www.awesomes.cn/)
-    + [设计百宝箱](https://uirush.com/)
     + [免费压缩图片](https://tinypng.com/)
     + [免费CDN仓库](http://www.staticfile.org/)
     + [图片压缩](https://squoosh.app/)
@@ -89,6 +93,10 @@
     + [码农周刊](https://github.com/toutiaoio/weekly.manong.io)
     + [html校验](https://validator.w3.org/)
     + [ctolib代码库](https://www.ctolib.com/)
+    + [脚本之家在线工具](http://tools.jb51.net/)
+    + [到目前为止，这可能是最好的网络演示工具](https://github.com/ksky521/nodeppt)
+    + [java菜市场](https://www.javaweb.shop/)
+    
 
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
@@ -100,6 +108,11 @@
     + [es6中文文档](http://caibaojian.com/es6/)
     + [python3 Api文档](https://docs.python.org/3/)
     + [Google代码风格](https://github.com/google/styleguide)
+
+- ### 设计相关
+    + [免费正版高清图片素材库](https://pixabay.com/zh/)
+    + [设计百宝箱](https://uirush.com/)
+    + [PoPo 数据可视化](http://www.popodv.com/)
 
 - ### 一些好看的效果
     + [三维地图](http://globe.cid.harvard.edu/)
@@ -113,3 +126,9 @@
     + [Awesome Hunt](https://awehunt.com)
     + [为互联网IT人打造的中文版awesome-go](https://github.com/hackstoic/golang-open-source-projects)
     + [成为专业程序员路上用到的各种优秀资料、神器及框架](https://thonatos.gitbooks.io/be-a-professional-programmer/)
+    + [Curated list of resources for college students](https://github.com/dipakkr/A-to-Z-Resources-for-Students)
+    + [Awesome tools](https://github.com/sorrycc/awesome-tools)
+    + [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
+    + [A list of cool projects made in Iran](https://github.com/mohebifar/made-in-iran)
+    + [Django 优秀资源大全](https://github.com/haiiiiiyun/awesome-django-cn)
+    + [纯Html+css+js的后台框架(前端)](./special/backhtml.md)
