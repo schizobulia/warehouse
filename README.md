@@ -16,6 +16,7 @@
     + [linux命令在线查询](https://wangchujiang.com/linux-command/)
     + [零配置Web框架](https://zeroserver.io/)
     + [Apache OpenWhisk是一个无服务器的基于事件的编程服务和一个Apache Incubator项目](https://github.com/apache/openwhisk)
+    + [OpenFaaS - 无服务器功能变得简单](https://github.com/openfaas/faas)
 
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
@@ -24,6 +25,12 @@
     + [Egg.js插件，工具，教程，文章等等](https://github.com/eggjs/awesome-egg)
     + [Maven中心仓库](https://mvnrepository.com/)
     + [Jfinal快速的Web开发框架(中国)](https://www.jfinal.com/doc)
+    + [ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架](http://www.thinkphp.cn/down.html)
+    + [PHP Web Framework](https://laravel.com/)
+    + [Flask是一个使用 Python 编写的轻量级 Web 应用框架](https://dormousehole.readthedocs.io/en/latest/)
+    + [Django是一个开放源代码的Web应用框架，由Python写成。](https://www.djangoproject.com/)
+    + [Tornado是一种 Web 服务器软件的开源版本](http://www.tornadoweb.org/en/stable/)
+    + [Jinja2 是一个现代的，设计者友好的，仿照 Django 模板的 Python 模板语言](http://docs.jinkan.org/docs/jinja2/)
 
 - ### 爬虫
     + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
@@ -49,6 +56,12 @@
     + [流程图](https://mermaidjs.github.io/#/)
     + [React Native组件库](https://github.com/GeekyAnts/NativeBase)
     + [用于javascript的跨浏览器QRCode生成器](https://github.com/davidshimjs/qrcodejs)
+    + [ColorUI组件库](http://demo.color-ui.com/)
+    + [layui经典模块化前端框架](https://www.layui.com/)
+    + [一个基于Material Design的CSS框架](https://github.com/Dogfalo/materialize)
+    + [快速简单地创建全屏页面](https://github.com/alvarotrigo/fullpage.js)
+    + [丰富实用的业务脚手架集合](http://scaffold.ant.design/#/)
+    + [用于构建Microsoft Web体验的React组件](https://github.com/OfficeDev/office-ui-fabric-react)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -94,9 +107,23 @@
     + [html校验](https://validator.w3.org/)
     + [ctolib代码库](https://www.ctolib.com/)
     + [脚本之家在线工具](http://tools.jb51.net/)
-    + [到目前为止，这可能是最好的网络演示工具](https://github.com/ksky521/nodeppt)
     + [java菜市场](https://www.javaweb.shop/)
-    
+    + [吾爱破解](https://www.52pojie.cn/)
+    + [智图_图片压缩在线工具_在线制作webp](https://zhitu.isux.us/)
+    + [Laravel学院](https://laravelacademy.org/)
+    + [多张图片在线压缩](https://tinypng.com/)
+
+- ### 日常办公
+    + [石墨文档](https://shimo.im)
+    + [到目前为止，这可能是最好的网络演示工具](https://github.com/ksky521/nodeppt)
+    + [档铺网——在线文档免费处理](http://www.docpe.com/)
+    + [免费在线文件转换器](https://cn.office-converter.com/)
+    + [简单好用的线上 PDF 工具](https://smallpdf.com/cn)
+    + [语雀是一款知识创作工具](https://www.yuque.com/)
+
+- ### 插件库
+    + [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
+    + [Search Guard为您提供对整个Elasticsearch环境的完全安全控制](https://search-guard.com/)
 
 - ### API文档
     + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
@@ -108,6 +135,15 @@
     + [es6中文文档](http://caibaojian.com/es6/)
     + [python3 Api文档](https://docs.python.org/3/)
     + [Google代码风格](https://github.com/google/styleguide)
+    + [ThinkPHP5.0完全开发手册](https://www.kancloud.cn/manual/thinkphp5/118003)
+    + [ThinkPHP3.2.3完全开发手册](https://www.kancloud.cn/manual/thinkphp/1678)
+    + [jQuery API 3.3.1 速查表](http://jquery.cuishifeng.cn/index.html)
+    + [Laravel 5.6 中文文档](https://laravelacademy.org/laravel-docs-5_6)
+    + [Tornado中文手册](https://docs.pythontab.com/tornado/introduction-to-tornado/)
+    + [Flask中文在线手册](https://docs.pythontab.com/flask/flask0.10/)
+    + [Django 中文文档](https://docs.pythontab.com/django/django1.5/)
+    + [Jinja2中文手册](https://docs.pythontab.com/jinja/jinja2/)
+    + [Git中文手册](https://docs.pythontab.com/github/gitbook/)
 
 - ### 设计相关
     + [免费正版高清图片素材库](https://pixabay.com/zh/)
@@ -118,6 +154,10 @@
     + [三维地图](http://globe.cid.harvard.edu/)
     + [可旋转的世界地图](http://launchit.shanemielke.com/)
     + [基于 HTML5 WebGL 的挖掘机 3D 可视化应用](http://www.hightopo.com/demo/ht-excavator/)
+
+- ### 大佬们的博客
+    + [汤姆大叔](https://www.cnblogs.com/TomXu/)
+    + [廖雪峰](https://www.liaoxuefeng.com/)
 
 - ### Other Awesome Lists
     + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
