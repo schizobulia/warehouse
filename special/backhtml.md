@@ -5,3 +5,4 @@
     + [Free Bootstrap Admin Template](https://coreui.io/)
     + [Bootstrap-Admin-Theme](https://github.com/VinceG/Bootstrap-Admin-Theme)
     + [SB Admin](https://startbootstrap.com/templates/sb-admin/)
+    + [AdminLTE](https://github.com/ColorlibHQ/AdminLTE)

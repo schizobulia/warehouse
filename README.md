@@ -1,7 +1,5 @@
 ## 工具
 
-- ### 此项目将不再更新,最新信息请移步[地址](https://github.com/508lab/wxprogram)
-
 - ### 运维
     + [自动生成https的工具](https://certbot.eff.org/)
     + [翻墙工具](https://github.com/XX-net/XX-Net)
@@ -151,6 +149,7 @@
     + [免费正版高清图片素材库](https://pixabay.com/zh/)
     + [设计百宝箱](https://uirush.com/)
     + [PoPo 数据可视化](http://www.popodv.com/)
+    + [拖放式网站开发JS库](http://www.vvveb.com/vvvebjs/editor.html)
 
 - ### 一些好看的效果
     + [三维地图](http://globe.cid.harvard.edu/)
