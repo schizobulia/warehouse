@@ -11,6 +11,7 @@
 ## 工具
 
 - ### 运维
+    + [应用容器引擎-docker](https://www.runoob.com/docker/docker-tutorial.html)
     + [自动生成https的工具](https://certbot.eff.org/)
     + [翻墙工具](https://github.com/XX-net/XX-Net)
     + [蓝灯(开箱即用)(翻墙)](https://github.com/getlantern/download)
@@ -92,6 +93,9 @@
     + [360威胁情报中心](https://ti.360.net/)
     + [RedQueen安全智能服务平台](https://redqueen.tj-un.com/IntelHome.html)
 
+- ### 测试
+    + [Apache JMeter是Apache组织开发的基于Java的测试工具](https://jmeter.apache.org/)
+    
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
 
