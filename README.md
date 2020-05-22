@@ -1,3 +1,13 @@
+## 性能优化
+
+- ### 前端
+    + [谷歌开源quicklink：大幅提升网页加载速度](https://github.com/GoogleChromeLabs/quicklink)
+    + [Turbolinks makes navigating your web application faster](https://github.com/turbolinks/turbolinks)
+    + [InstantClick – 快速响应](https://github.com/dieulot/instantclick)
+
+- ### 大数据
+    + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
+
 ## 工具
 
 - ### 运维
