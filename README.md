@@ -4,6 +4,7 @@
     + [谷歌开源quicklink：大幅提升网页加载速度](https://github.com/GoogleChromeLabs/quicklink)
     + [Turbolinks makes navigating your web application faster](https://github.com/turbolinks/turbolinks)
     + [InstantClick – 快速响应](https://github.com/dieulot/instantclick)
+    + [Lighthouse – 前端性能优化测试工具](https://github.com/GoogleChrome/lighthouse)
 
 - ### 大数据
     + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
@@ -28,6 +29,7 @@
     + [零配置Web框架](https://zeroserver.io/)
     + [Apache OpenWhisk是一个无服务器的基于事件的编程服务和一个Apache Incubator项目](https://github.com/apache/openwhisk)
     + [OpenFaaS - 无服务器功能变得简单](https://github.com/openfaas/faas)
+    + [一个提供免费HTTPS证书申请的网站](https://freessl.cn)
 
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
@@ -73,6 +75,7 @@
     + [快速简单地创建全屏页面](https://github.com/alvarotrigo/fullpage.js)
     + [丰富实用的业务脚手架集合](http://scaffold.ant.design/#/)
     + [用于构建Microsoft Web体验的React组件](https://github.com/OfficeDev/office-ui-fabric-react)
+    + [组件管理与分享](https://bit.dev/)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -105,27 +108,22 @@
     + [GRAPHQL平台](https://www.apollographql.com/docs/)
     + [Scratch是MIT媒体实验室终生幼儿园小组开发的一个免费项目](https://scratch.mit.edu/)
     + [凹凸实验室](https://aotu.io/)
-    + [百度FEX前端研发部](http://fex.baidu.com/)
     + [各种前端的框架与库](https://www.awesomes.cn/)
     + [免费压缩图片](https://tinypng.com/)
     + [免费CDN仓库](http://www.staticfile.org/)
     + [图片压缩](https://squoosh.app/)
-    + [浙江大学可视分析小组博客](http://www.cad.zju.edu.cn/home/vagblog/)
-    + [InFoQ社区](https://www.infoq.cn/)
     + [常用正则表达式验证与生成](http://tools.jb51.net/regex/create_reg)
     + [国际化翻译的搜索网站](https://i18ns.com/)
     + [工具箱](http://www.atoolbox.net/)
     + [在线工具](https://tool.oschina.net/)
-    + [前端开发博客](http://caibaojian.com/)
-    + [码农周刊](https://github.com/toutiaoio/weekly.manong.io)
     + [html校验](https://validator.w3.org/)
     + [ctolib代码库](https://www.ctolib.com/)
     + [脚本之家在线工具](http://tools.jb51.net/)
-    + [java菜市场](https://www.javaweb.shop/)
     + [吾爱破解](https://www.52pojie.cn/)
     + [智图_图片压缩在线工具_在线制作webp](https://zhitu.isux.us/)
-    + [Laravel学院](https://laravelacademy.org/)
     + [多张图片在线压缩](https://tinypng.com/)
+    + [P2P浏览器视频通话平台，具有无与伦比的视频质量和延迟](https://zipcall.io/)
+    + [安全，功能齐全且完全免费的视频会议](https://jitsi.org/)
 
 - ### 日常办公
     + [石墨文档](https://shimo.im)
@@ -164,6 +162,7 @@
     + [设计百宝箱](https://uirush.com/)
     + [PoPo 数据可视化](http://www.popodv.com/)
     + [拖放式网站开发JS库](http://www.vvveb.com/vvvebjs/editor.html)
+    + [极简壁纸](https://bz.zzzmh.cn/)
 
 - ### 一些好看的效果
     + [三维地图](http://globe.cid.harvard.edu/)
@@ -187,3 +186,6 @@
     + [A list of cool projects made in Iran](https://github.com/mohebifar/made-in-iran)
     + [Django 优秀资源大全](https://github.com/haiiiiiyun/awesome-django-cn)
     + [纯Html+css+js的后台框架(前端)](./special/backhtml.md)
+
+- ### 远程工作
+    + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
