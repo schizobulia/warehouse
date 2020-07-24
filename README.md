@@ -76,6 +76,7 @@
     + [丰富实用的业务脚手架集合](http://scaffold.ant.design/#/)
     + [用于构建Microsoft Web体验的React组件](https://github.com/OfficeDev/office-ui-fabric-react)
     + [组件管理与分享](https://bit.dev/)
+    + [H5动效模板，专门为微信优化，适合快速构建全屏滚动型H5宣传页](https://github.com/panteng/wechat-h5-boilerplate)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -124,6 +125,8 @@
     + [多张图片在线压缩](https://tinypng.com/)
     + [P2P浏览器视频通话平台，具有无与伦比的视频质量和延迟](https://zipcall.io/)
     + [安全，功能齐全且完全免费的视频会议](https://jitsi.org/)
+    + [Saladict 沙拉查词](https://saladict.crimx.com/)
+    + [面向开发者的文档翻译工具](https://www.breword.com/)
 
 - ### 日常办公
     + [石墨文档](https://shimo.im)
@@ -186,6 +189,7 @@
     + [A list of cool projects made in Iran](https://github.com/mohebifar/made-in-iran)
     + [Django 优秀资源大全](https://github.com/haiiiiiyun/awesome-django-cn)
     + [纯Html+css+js的后台框架(前端)](./special/backhtml.md)
+    + [自由上网方法大全](https://github.com/Alvin9999/new-pac)
 
 - ### 远程工作
     + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
