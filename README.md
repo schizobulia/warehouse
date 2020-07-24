@@ -1,195 +1,197 @@
-## 性能优化
+## Performance optimization
 
-- ### 前端
-    + [谷歌开源quicklink：大幅提升网页加载速度](https://github.com/GoogleChromeLabs/quicklink)
-    + [Turbolinks makes navigating your web application faster](https://github.com/turbolinks/turbolinks)
-    + [InstantClick – 快速响应](https://github.com/dieulot/instantclick)
-    + [Lighthouse – 前端性能优化测试工具](https://github.com/GoogleChrome/lighthouse)
-
-- ### 大数据
-    + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
-
-## 工具
-
-- ### 运维
-    + [应用容器引擎-docker](https://www.runoob.com/docker/docker-tutorial.html)
-    + [自动生成https的工具](https://certbot.eff.org/)
-    + [翻墙工具](https://github.com/XX-net/XX-Net)
-    + [蓝灯(开箱即用)(翻墙)](https://github.com/getlantern/download)
-    + [python的一个环境管理工具](https://github.com/pypa/pipenv)
-    + [免费给别人发送代码片段(阅后即焚)](https://privatebin.net)
-    + [Hexo 是一个快速、简洁且高效的博客框架(配合github使用)](https://hexo.io/zh-cn/)
-    + [可视化网站访问统计数据](http://clustrmaps.com/)
-    + [为ELK提供免费的加密工具](https://search-guard.com/)
-    + [一组有用的.gitignore模板](https://github.com/github/gitignore)
-    + [Node.js敏感词过滤库](https://github.com/pyloque/fastscan)
-    + [底噪 | 黑苹果合集](https://zhih.me/)
-    + [搭建属于自己的CDN](https://www.jsdelivr.com/)
-    + [linux命令在线查询](https://wangchujiang.com/linux-command/)
-    + [零配置Web框架](https://zeroserver.io/)
-    + [Apache OpenWhisk是一个无服务器的基于事件的编程服务和一个Apache Incubator项目](https://github.com/apache/openwhisk)
-    + [OpenFaaS - 无服务器功能变得简单](https://github.com/openfaas/faas)
-    + [一个提供免费HTTPS证书申请的网站](https://freessl.cn)
-
-- ### 后端
-    + [企业级的Node框架](https://eggjs.org/)
-    + [一个轻量级的Java 开发框架](https://spring.io/)
-    + [用于构建高效且可伸缩Web应用程序的渐进式 Node.js 框架](https://nestjs.com/)
-    + [Egg.js插件，工具，教程，文章等等](https://github.com/eggjs/awesome-egg)
-    + [Maven中心仓库](https://mvnrepository.com/)
-    + [Jfinal快速的Web开发框架(中国)](https://www.jfinal.com/doc)
-    + [ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架](http://www.thinkphp.cn/down.html)
-    + [PHP Web Framework](https://laravel.com/)
-    + [Flask是一个使用 Python 编写的轻量级 Web 应用框架](https://dormousehole.readthedocs.io/en/latest/)
-    + [Django是一个开放源代码的Web应用框架，由Python写成。](https://www.djangoproject.com/)
-    + [Tornado是一种 Web 服务器软件的开源版本](http://www.tornadoweb.org/en/stable/)
-    + [Jinja2 是一个现代的，设计者友好的，仿照 Django 模板的 Python 模板语言](http://docs.jinkan.org/docs/jinja2/)
-
-- ### 爬虫
-    + [Requests-HTML(一个轻量级的爬虫工具)](https://github.com/kennethreitz/requests-html)
-    + [使用node去控制你的浏览器(一般做爬虫)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
-    + [Scrapy是一个快速的高层次的屏幕抓取和网页爬虫框架](http://www.scrapyd.cn/)
-
-- ### 前端
-    + [中国首个开源 HTML5 跨屏前端框架](http://amazeui.org/)
-    + [蚂蚁金服开源React组建库](https://ant.design/)
-    + [让WebApp更接近于原生App](https://lavas.baidu.com/pwa)
-    + [百度的Echarts](http://www.echartsjs.com/index.html)
-    + [Highcharts 是一个用纯JavaScript编写的一个图表库](https://www.highcharts.com/)
-    + [Gio.js 是一个基于Three.js的web 3D地球数据可视化的开源组件库](https://github.com/syt123450/giojs/blob/master/README_zh.md)
-    + [CesiumJS是一个JavaScript库，用于在没有插件的情况下在Web浏览器中创建3D地球仪和2D地图](https://github.com/AnalyticalGraphicsInc/cesium)
-    + [世界各国国旗的icon](https://github.com/lafeber/world-flags-sprite)
-    + [Ant Design资源](https://github.com/websemantics/awesome-ant-design)
-    + [HTML5拓扑图](http://visjs.org/)
-    + [React代码高亮显示的插件](https://github.com/conorhastings/react-syntax-highlighter)
-    + [javascript动画库](https://createjs.com/)
-    + [Three.js(WebGL)](https://threejs.org/)
-    + [使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用](https://electronjs.org/)
-    + [BizCharts主打电商业务图表可视化，沉淀电商业务线的可视化规范。](https://github.com/alibaba/BizCharts)
-    + [流程图](https://mermaidjs.github.io/#/)
-    + [React Native组件库](https://github.com/GeekyAnts/NativeBase)
-    + [用于javascript的跨浏览器QRCode生成器](https://github.com/davidshimjs/qrcodejs)
-    + [ColorUI组件库](http://demo.color-ui.com/)
-    + [layui经典模块化前端框架](https://www.layui.com/)
-    + [一个基于Material Design的CSS框架](https://github.com/Dogfalo/materialize)
-    + [快速简单地创建全屏页面](https://github.com/alvarotrigo/fullpage.js)
-    + [丰富实用的业务脚手架集合](http://scaffold.ant.design/#/)
-    + [用于构建Microsoft Web体验的React组件](https://github.com/OfficeDev/office-ui-fabric-react)
-    + [组件管理与分享](https://bit.dev/)
-    + [H5动效模板，专门为微信优化，适合快速构建全屏滚动型H5宣传页](https://github.com/panteng/wechat-h5-boilerplate)
-
-- ### 大数据
-    + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
-    + [Kibana 让您能够可视化 Elasticsearch 中的数据并操作 Elastic Stack](https://www.elastic.co/cn/products/kibana)
-    + [Spark是为大规模数据处理而设计的快速通用的计算引擎](http://spark.apache.org/)
-    + [分布式、分区、提交后复制的日志服务-Kafka](http://kafkadoc.beanmr.com/010_getting_started/01_introduction_cn.html)
-    + [Apache Tika - 内容分析工具包](https://tika.apache.org/)
-    + [javascript全文检索](https://github.com/olivernn/lunr.js/)
-    + [一些免费的数据集](https://skymind.ai/wiki/open-datasets)
-    + [很NB的词库](https://github.com/fighting41love/funNLP)
-
-- ### 网络安全
-    + [开源威胁情报收集AlienVault](https://otx.alienvault.com/)
-    + [有多少数据库裸奔在互联网上](https://www.shodan.io/)
-    + [个人信息泄漏检测工具](https://monitor.firefox.com/)
-    + [ZoomEye是一款针对网络空间的搜索引擎，收录了互联网空间中的设备、网站及其使用的服务或组件等信息。](https://www.zoomeye.org/)
-    + [privacytools.io提供知识和工具，以保护您的隐私免受全球大规模监控。](https://www.privacytools.io/)
-    + [360威胁情报中心](https://ti.360.net/)
-    + [RedQueen安全智能服务平台](https://redqueen.tj-un.com/IntelHome.html)
-
-- ### 测试
-    + [Apache JMeter是Apache组织开发的基于Java的测试工具](https://jmeter.apache.org/)
+-   ### front end
     
-- ### AI
-    + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
+    -   [Google open source quicklink: greatly improve page loading speed](https://github.com/GoogleChromeLabs/quicklink)
+    -   [Turbolinks makes navigating your web application faster](https://github.com/turbolinks/turbolinks)
+    -   [InstantClick-quick response](https://github.com/dieulot/instantclick)
+    -   [Lighthouse-front-end performance optimization test tool](https://github.com/GoogleChrome/lighthouse)
+-   ### Big Data
+    
+    -   [Mysql-Official Document (About the optimization part)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
 
-- ### 平台与工具
-    + [在浏览器中使用真实环境学习新技术](https://www.katacoda.com/)
-    + [比较便宜的云服务器(国外)](https://www.digitalocean.com/)
-    + [GRAPHQL平台](https://www.apollographql.com/docs/)
-    + [Scratch是MIT媒体实验室终生幼儿园小组开发的一个免费项目](https://scratch.mit.edu/)
-    + [凹凸实验室](https://aotu.io/)
-    + [各种前端的框架与库](https://www.awesomes.cn/)
-    + [免费压缩图片](https://tinypng.com/)
-    + [免费CDN仓库](http://www.staticfile.org/)
-    + [图片压缩](https://squoosh.app/)
-    + [常用正则表达式验证与生成](http://tools.jb51.net/regex/create_reg)
-    + [国际化翻译的搜索网站](https://i18ns.com/)
-    + [工具箱](http://www.atoolbox.net/)
-    + [在线工具](https://tool.oschina.net/)
-    + [html校验](https://validator.w3.org/)
-    + [ctolib代码库](https://www.ctolib.com/)
-    + [脚本之家在线工具](http://tools.jb51.net/)
-    + [吾爱破解](https://www.52pojie.cn/)
-    + [智图_图片压缩在线工具_在线制作webp](https://zhitu.isux.us/)
-    + [多张图片在线压缩](https://tinypng.com/)
-    + [P2P浏览器视频通话平台，具有无与伦比的视频质量和延迟](https://zipcall.io/)
-    + [安全，功能齐全且完全免费的视频会议](https://jitsi.org/)
-    + [Saladict 沙拉查词](https://saladict.crimx.com/)
-    + [面向开发者的文档翻译工具](https://www.breword.com/)
+## tool
 
-- ### 日常办公
-    + [石墨文档](https://shimo.im)
-    + [到目前为止，这可能是最好的网络演示工具](https://github.com/ksky521/nodeppt)
-    + [档铺网——在线文档免费处理](http://www.docpe.com/)
-    + [免费在线文件转换器](https://cn.office-converter.com/)
-    + [简单好用的线上 PDF 工具](https://smallpdf.com/cn)
-    + [语雀是一款知识创作工具](https://www.yuque.com/)
-
-- ### 插件库
-    + [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
-    + [Search Guard为您提供对整个Elasticsearch环境的完全安全控制](https://search-guard.com/)
-
-- ### API文档
-    + [jdk-1.8中文文档](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
-    + [Apache Spark 官方文档中文版](https://github.com/apachecn/spark-doc-zh)
-    + [一些大数据与机器学习的框架(中文文档)](http://cwiki.apachecn.org/spacedirectory/view.action)
-    + [Node.js中文文档](http://nodejs.cn/api/)
-    + [对开发人员有用的定律、理论、原则和模式](https://github.com/nusr/hacker-laws-zh)
-    + [基于项目的学习](https://github.com/tuvtran/project-based-learning)
-    + [es6中文文档](http://caibaojian.com/es6/)
-    + [python3 Api文档](https://docs.python.org/3/)
-    + [Google代码风格](https://github.com/google/styleguide)
-    + [ThinkPHP5.0完全开发手册](https://www.kancloud.cn/manual/thinkphp5/118003)
-    + [ThinkPHP3.2.3完全开发手册](https://www.kancloud.cn/manual/thinkphp/1678)
-    + [jQuery API 3.3.1 速查表](http://jquery.cuishifeng.cn/index.html)
-    + [Laravel 5.6 中文文档](https://laravelacademy.org/laravel-docs-5_6)
-    + [Tornado中文手册](https://docs.pythontab.com/tornado/introduction-to-tornado/)
-    + [Flask中文在线手册](https://docs.pythontab.com/flask/flask0.10/)
-    + [Django 中文文档](https://docs.pythontab.com/django/django1.5/)
-    + [Jinja2中文手册](https://docs.pythontab.com/jinja/jinja2/)
-    + [Git中文手册](https://docs.pythontab.com/github/gitbook/)
-
-- ### 设计相关
-    + [免费正版高清图片素材库](https://pixabay.com/zh/)
-    + [设计百宝箱](https://uirush.com/)
-    + [PoPo 数据可视化](http://www.popodv.com/)
-    + [拖放式网站开发JS库](http://www.vvveb.com/vvvebjs/editor.html)
-    + [极简壁纸](https://bz.zzzmh.cn/)
-
-- ### 一些好看的效果
-    + [三维地图](http://globe.cid.harvard.edu/)
-    + [可旋转的世界地图](http://launchit.shanemielke.com/)
-    + [基于 HTML5 WebGL 的挖掘机 3D 可视化应用](http://www.hightopo.com/demo/ht-excavator/)
-
-- ### 大佬们的博客
-    + [汤姆大叔](https://www.cnblogs.com/TomXu/)
-    + [廖雪峰](https://www.liaoxuefeng.com/)
-
-- ### Other Awesome Lists
-    + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
-    + [A curated list of useful resources for gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
-    + [A curated list of neural architecture search (NAS) resources.](https://github.com/D-X-Y/Awesome-NAS)
-    + [Awesome Hunt](https://awehunt.com)
-    + [为互联网IT人打造的中文版awesome-go](https://github.com/hackstoic/golang-open-source-projects)
-    + [成为专业程序员路上用到的各种优秀资料、神器及框架](https://thonatos.gitbooks.io/be-a-professional-programmer/)
-    + [Curated list of resources for college students](https://github.com/dipakkr/A-to-Z-Resources-for-Students)
-    + [Awesome tools](https://github.com/sorrycc/awesome-tools)
-    + [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
-    + [A list of cool projects made in Iran](https://github.com/mohebifar/made-in-iran)
-    + [Django 优秀资源大全](https://github.com/haiiiiiyun/awesome-django-cn)
-    + [纯Html+css+js的后台框架(前端)](./special/backhtml.md)
-    + [自由上网方法大全](https://github.com/Alvin9999/new-pac)
-
-- ### 远程工作
-    + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
+-   ### Operation and maintenance
+    
+    -   [Application container engine-docker](https://www.runoob.com/docker/docker-tutorial.html)
+    -   [Tools to automatically generate https](https://certbot.eff.org/)
+    -   [Over the wall tool](https://github.com/XX-net/XX-Net)
+    -   [Blue light (out of the box) (over the wall)](https://github.com/getlantern/download)
+    -   [An environment management tool for python](https://github.com/pypa/pipenv)
+    -   [Send code snippets to others for free (burn after reading)](https://privatebin.net)
+    -   [Hexo is a fast, concise and efficient blog framework (used with github)](https://hexo.io/zh-cn/)
+    -   [Visualize website visit statistics](http://clustrmaps.com/)
+    -   [Provide free encryption tools for ELK](https://search-guard.com/)
+    -   [A set of useful .gitignore templates](https://github.com/github/gitignore)
+    -   [Node.js sensitive word filtering library](https://github.com/pyloque/fastscan)
+    -   [Noise Bottom | Black Apple Collection](https://zhih.me/)
+    -   [Build your own CDN](https://www.jsdelivr.com/)
+    -   [linux command online query](https://wangchujiang.com/linux-command/)
+    -   [Zero configuration web framework](https://zeroserver.io/)
+    -   [Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project](https://github.com/apache/openwhisk)
+    -   [OpenFaaS-serverless functions made simple](https://github.com/openfaas/faas)
+    -   [A website that provides free HTTPS certificate application](https://freessl.cn)
+-   ### rear end
+    
+    -   [Enterprise-level Node framework](https://eggjs.org/)
+    -   [A lightweight Java development framework](https://spring.io/)
+    -   [A progressive Node.js framework for building efficient and scalable web applications](https://nestjs.com/)
+    -   [Egg.js plugins, tools, tutorials, articles, etc.](https://github.com/eggjs/awesome-egg)
+    -   [Maven Central Warehouse](https://mvnrepository.com/)
+    -   [Jfinal rapid web development framework (China)](https://www.jfinal.com/doc)
+    -   [ThinkPHP is a fast, compatible and simple lightweight domestic PHP development framework](http://www.thinkphp.cn/down.html)
+    -   [PHP Web Framework](https://laravel.com/)
+    -   [Flask is a lightweight web application framework written in Python](https://dormousehole.readthedocs.io/en/latest/)
+    -   [Django is an open source web application framework, written in Python.](https://www.djangoproject.com/)
+    -   [Tornado is an open source version of web server software](http://www.tornadoweb.org/en/stable/)
+    -   [Jinja2 is a modern, designer-friendly Python template language modeled after Django templates](http://docs.jinkan.org/docs/jinja2/)
+-   ### reptile
+    
+    -   [Requests-HTML (a lightweight crawler tool)](https://github.com/kennethreitz/requests-html)
+    -   [Use node to control your browser (generally as a crawler)](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0)
+    -   [Scrapy is a fast high-level screen scraping and web crawler framework](http://www.scrapyd.cn/)
+-   ### front end
+    
+    -   [China's first open source HTML5 multi-screen front-end framework](http://amazeui.org/)
+    -   [Ant Financial open source React build library](https://ant.design/)
+    -   [Make WebApp closer to native App](https://lavas.baidu.com/pwa)
+    -   [Baidu's Echarts](http://www.echartsjs.com/index.html)
+    -   [Highcharts is a chart library written in pure JavaScript](https://www.highcharts.com/)
+    -   [Gio.js is an open source component library for web 3D earth data visualization based on Three.js](https://github.com/syt123450/giojs/blob/master/README_zh.md)
+    -   [CesiumJS is a JavaScript library for creating 3D globes and 2D maps in a web browser without plugins](https://github.com/AnalyticalGraphicsInc/cesium)
+    -   [Icon of world flags](https://github.com/lafeber/world-flags-sprite)
+    -   [Ant Design resources](https://github.com/websemantics/awesome-ant-design)
+    -   [HTML5 topology map](http://visjs.org/)
+    -   [React code highlighting plugin](https://github.com/conorhastings/react-syntax-highlighter)
+    -   [javascript animation library](https://createjs.com/)
+    -   [Three.js (WebGL)](https://threejs.org/)
+    -   [Use JavaScript, HTML and CSS to build cross-platform desktop applications](https://electronjs.org/)
+    -   [BizCharts focuses on the visualization of e-commerce business charts, precipitating the visualization of e-commerce business lines.](https://github.com/alibaba/BizCharts)
+    -   [flow chart](https://mermaidjs.github.io/#/)
+    -   [React Native component library](https://github.com/GeekyAnts/NativeBase)
+    -   [Cross-browser QRCode generator for javascript](https://github.com/davidshimjs/qrcodejs)
+    -   [ColorUI component library](http://demo.color-ui.com/)
+    -   [Layui classic modular front-end framework](https://www.layui.com/)
+    -   [A CSS framework based on Material Design](https://github.com/Dogfalo/materialize)
+    -   [Create full screen pages quickly and easily](https://github.com/alvarotrigo/fullpage.js)
+    -   [Rich and practical business scaffolding collection](http://scaffold.ant.design/#/)
+    -   [React components for building the Microsoft web experience](https://github.com/OfficeDev/office-ui-fabric-react)
+    -   [Component management and sharing](https://bit.dev/)
+    -   [H5 dynamic effect template, specially optimized for WeChat, suitable for quickly building a full-screen scrolling H5 promotional page](https://github.com/panteng/wechat-h5-boilerplate)
+-   ### Big Data
+    
+    -   [ElasticSearch is a Lucene-based search server](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
+    -   [Kibana allows you to visualize data in Elasticsearch and operate Elastic Stack](https://www.elastic.co/cn/products/kibana)
+    -   [Spark is a fast and universal computing engine designed for large-scale data processing](http://spark.apache.org/)
+    -   [Distributed, partitioned, and replicated log service after submission-Kafka](http://kafkadoc.beanmr.com/010_getting_started/01_introduction_cn.html)
+    -   [Apache Tika-Content Analysis Toolkit](https://tika.apache.org/)
+    -   [javascript full text search](https://github.com/olivernn/lunr.js/)
+    -   [Some free data sets](https://skymind.ai/wiki/open-datasets)
+    -   [Very NB thesaurus](https://github.com/fighting41love/funNLP)
+-   ### cyber security
+    
+    -   [Open source threat intelligence collection AlienVault](https://otx.alienvault.com/)
+    -   [How many databases are running naked on the Internet](https://www.shodan.io/)
+    -   [Personal information leak detection tool](https://monitor.firefox.com/)
+    -   [ZoomEye is a search engine for the Internet space, which includes information about devices, websites and the services or components used in the Internet space.](https://www.zoomeye.org/)
+    -   [privacytools.io provides knowledge and tools to protect your privacy from large-scale global surveillance.](https://www.privacytools.io/)
+    -   [360 Threat Intelligence Center](https://ti.360.net/)
+    -   [RedQueen Security Intelligent Service Platform](https://redqueen.tj-un.com/IntelHome.html)
+-   ### test
+    
+    -   [Apache JMeter is a Java-based testing tool developed by the Apache organization](https://jmeter.apache.org/)
+-   ### AI
+    
+    -   [Smart shader (convert sketch to colorful image)](https://s2p.moe/)
+-   ### Platforms and tools
+    
+    -   [Use the real environment to learn new technologies in the browser](https://www.katacoda.com/)
+    -   [Cheaper cloud server (foreign)](https://www.digitalocean.com/)
+    -   [GRAPHQL platform](https://www.apollographql.com/docs/)
+    -   [Scratch is a free project developed by the Lifetime Kindergarten Group of the MIT Media Lab](https://scratch.mit.edu/)
+    -   [Bump Lab](https://aotu.io/)
+    -   [Various front-end frameworks and libraries](https://www.awesomes.cn/)
+    -   [Free compressed pictures](https://tinypng.com/)
+    -   [Free CDN warehouse](http://www.staticfile.org/)
+    -   [Picture compression](https://squoosh.app/)
+    -   [Commonly used regular expression verification and generation](http://tools.jb51.net/regex/create_reg)
+    -   [Search site for international translation](https://i18ns.com/)
+    -   [Toolbox](http://www.atoolbox.net/)
+    -   [Online tools](https://tool.oschina.net/)
+    -   [html check](https://validator.w3.org/)
+    -   [ctolib code base](https://www.ctolib.com/)
+    -   [Script House Online Tool](http://tools.jb51.net/)
+    -   [I love cracking](https://www.52pojie.cn/)
+    -   [Zhitu\_image compression online tool\_make webp online](https://zhitu.isux.us/)
+    -   [Online compression of multiple pictures](https://tinypng.com/)
+    -   [P2P browser video calling platform with unparalleled video quality and delay](https://zipcall.io/)
+    -   [Safe, fully functional and completely free video conference](https://jitsi.org/)
+    -   [Saladict](https://saladict.crimx.com/)
+    -   [Document translation tool for developers](https://www.breword.com/)
+-   ### Daily office
+    
+    -   [Graphite Document](https://shimo.im)
+    -   [So far, this may be the best web presentation tool](https://github.com/ksky521/nodeppt)
+    -   [File shop-free processing of online documents](http://www.docpe.com/)
+    -   [Free online file converter](https://cn.office-converter.com/)
+    -   [Easy to use online PDF tool](https://smallpdf.com/cn)
+    -   [Yuque is a knowledge creation tool](https://www.yuque.com/)
+-   ### Plugin library
+    
+    -   [jQuery Plugin Library-Collection of the most complete, latest and best jQuery plugins](http://www.jq22.com/)
+    -   [Search Guard provides you with complete security control of the entire Elasticsearch environment](https://search-guard.com/)
+-   ### API documentation
+    
+    -   [jdk-1.8 Chinese document](https://blog.fondme.cn/apidoc/jdk-1.8-youdao/)
+    -   [Apache Spark official document Chinese version](https://github.com/apachecn/spark-doc-zh)
+    -   [Some big data and machine learning frameworks (Chinese documents)](http://cwiki.apachecn.org/spacedirectory/view.action)
+    -   [Node.js Chinese documentation](http://nodejs.cn/api/)
+    -   [Laws, theories, principles, and patterns useful to developers](https://github.com/nusr/hacker-laws-zh)
+    -   [Project-based learning](https://github.com/tuvtran/project-based-learning)
+    -   [es6 Chinese document](http://caibaojian.com/es6/)
+    -   [python3 Api documentation](https://docs.python.org/3/)
+    -   [Google code style](https://github.com/google/styleguide)
+    -   [ThinkPHP5.0 complete development manual](https://www.kancloud.cn/manual/thinkphp5/118003)
+    -   [ThinkPHP3.2.3 complete development manual](https://www.kancloud.cn/manual/thinkphp/1678)
+    -   [jQuery API 3.3.1 Cheat Sheet](http://jquery.cuishifeng.cn/index.html)
+    -   [Laravel 5.6 Chinese document](https://laravelacademy.org/laravel-docs-5_6)
+    -   [Tornado Chinese Manual](https://docs.pythontab.com/tornado/introduction-to-tornado/)
+    -   [Flask Chinese Online Manual](https://docs.pythontab.com/flask/flask0.10/)
+    -   [Django Chinese documentation](https://docs.pythontab.com/django/django1.5/)
+    -   [Jinja2 Chinese Manual](https://docs.pythontab.com/jinja/jinja2/)
+    -   [Git Chinese Manual](https://docs.pythontab.com/github/gitbook/)
+-   ### Design related
+    
+    -   [Free genuine HD picture material library](https://pixabay.com/zh/)
+    -   [Design treasure chest](https://uirush.com/)
+    -   [PoPo data visualization](http://www.popodv.com/)
+    -   [Drag and drop website development JS library](http://www.vvveb.com/vvvebjs/editor.html)
+    -   [Minimalist Wallpapers](https://bz.zzzmh.cn/)
+-   ### Some nice effects
+    
+    -   [Three-dimensional map](http://globe.cid.harvard.edu/)
+    -   [Rotatable world map](http://launchit.shanemielke.com/)
+    -   [3D visualization application of excavator based on HTML5 WebGL](http://www.hightopo.com/demo/ht-excavator/)
+-   ### Boss blog
+    
+    -   [Uncle Tom](https://www.cnblogs.com/TomXu/)
+    -   [Liao Xuefeng](https://www.liaoxuefeng.com/)
+-   ### Other Awesome Lists
+    
+    -   [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
+    -   [A curated list of useful resources for gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
+    -   [A curated list of neural architecture search (NAS) resources.](https://github.com/D-X-Y/Awesome-NAS)
+    -   [Awesome Hunt](https://awehunt.com)
+    -   [Chinese version of awesome-go for Internet IT people](https://github.com/hackstoic/golang-open-source-projects)
+    -   [Various excellent materials, artifacts and frameworks used on the road to become a professional programmer](https://thonatos.gitbooks.io/be-a-professional-programmer/)
+    -   [Curated list of resources for college students](https://github.com/dipakkr/A-to-Z-Resources-for-Students)
+    -   [Awesome tools](https://github.com/sorrycc/awesome-tools)
+    -   [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
+    -   [A list of cool projects made in Iran](https://github.com/mohebifar/made-in-iran)
+    -   [Django excellent resources](https://github.com/haiiiiiyun/awesome-django-cn)
+    -   [Pure Html+css+js background framework (front-end)](/schizobulia-warehouse/./special/backhtml.md)
+    -   [How to surf the Internet freely](https://github.com/Alvin9999/new-pac)
+-   ### Remote work
+    
+    -   [Open Collective lets you manage your finances so that everyone can see where the funds come from and where they are used.](https://opencollective.com/)
