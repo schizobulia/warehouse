@@ -5,6 +5,7 @@
     + [Turbolinks makes navigating your web application faster](https://github.com/turbolinks/turbolinks)
     + [InstantClick – 快速响应](https://github.com/dieulot/instantclick)
     + [Lighthouse – 前端性能优化测试工具](https://github.com/GoogleChrome/lighthouse)
+    + [借助来自web.dev对网站性能进行指导和分析](https://web.dev/)
 
 - ### 大数据
     + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
@@ -77,6 +78,9 @@
     + [用于构建Microsoft Web体验的React组件](https://github.com/OfficeDev/office-ui-fabric-react)
     + [组件管理与分享](https://bit.dev/)
     + [H5动效模板，专门为微信优化，适合快速构建全屏滚动型H5宣传页](https://github.com/panteng/wechat-h5-boilerplate)
+    + [React动画库](https://github.com/react-spring/react-spring)
+    + [css动画效果](https://animista.net/)
+    + [css控制容器形状](https://www.blobmaker.app/)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -97,9 +101,11 @@
     + [360威胁情报中心](https://ti.360.net/)
     + [RedQueen安全智能服务平台](https://redqueen.tj-un.com/IntelHome.html)
     + [检查您的帐户是否因数据泄露而受到侵害](https://haveibeenpwned.com/)
+    + [查询恶意IP](https://www.abuseipdb.com/)
 
 - ### 测试
     + [Apache JMeter是Apache组织开发的基于Java的测试工具](https://jmeter.apache.org/)
+    + [您的网站的吸引力如何？](https://myraah.io/index.php/visualmind)
     
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
@@ -129,6 +135,8 @@
     + [Saladict 沙拉查词](https://saladict.crimx.com/)
     + [面向开发者的文档翻译工具](https://www.breword.com/)
     + [阿里云-体验实验室](https://developer.aliyun.com/adc/labs/)
+    + [有趣的javascript编码,可以用于加密](http://www.jsfuck.com/)
+    + [Linux Journal](https://www.linuxjournal.com/)
 
 - ### 日常办公
     + [石墨文档](https://shimo.im)
@@ -137,6 +145,7 @@
     + [免费在线文件转换器](https://cn.office-converter.com/)
     + [简单好用的线上 PDF 工具](https://smallpdf.com/cn)
     + [语雀是一款知识创作工具](https://www.yuque.com/)
+    + [图灵VPN](https://github.com/YoungBoy0048/Android-VPN)
 
 - ### 插件库
     + [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
@@ -200,6 +209,7 @@
     + [精选的编译器，解释器和运行时领域的资源](https://github.com/aalhour/awesome-compilers)
     + [简短代码段](https://www.30secondsofcode.org/)
     + [关于React生态系统的很棒的东西的集合](https://github.com/enaqx/awesome-react)
+    + [前端开发常用免费资源，显著提升工作效率](https://juejin.im/post/6875943665597546510)
 
 - ### 远程工作
     + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
