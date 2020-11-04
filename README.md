@@ -6,6 +6,7 @@
     + [InstantClick – 快速响应](https://github.com/dieulot/instantclick)
     + [Lighthouse – 前端性能优化测试工具](https://github.com/GoogleChrome/lighthouse)
     + [借助来自web.dev对网站性能进行指导和分析](https://web.dev/)
+    + [seo优化](http://tools.bugscaner.com/seo/)
 
 - ### 大数据
     + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
@@ -109,6 +110,7 @@
     
 - ### AI
     + [智能着色器(将素描转换为彩色的图像)](https://s2p.moe/)
+    + [KakaCss - 快速生成Css样式](https://renzhezhilu.gitee.io/kakacss/)
 
 - ### 平台与工具
     + [在浏览器中使用真实环境学习新技术](https://www.katacoda.com/)
@@ -137,6 +139,7 @@
     + [阿里云-体验实验室](https://developer.aliyun.com/adc/labs/)
     + [有趣的javascript编码,可以用于加密](http://www.jsfuck.com/)
     + [Linux Journal](https://www.linuxjournal.com/)
+    + [本地隧道服务器](https://github.com/localtunnel/server)
 
 - ### 日常办公
     + [石墨文档](https://shimo.im)
@@ -191,6 +194,8 @@
 - ### 大佬们的博客
     + [汤姆大叔](https://www.cnblogs.com/TomXu/)
     + [廖雪峰](https://www.liaoxuefeng.com/)
+    + [左耳朵耗子](https://coolshell.cn)
+    + [王垠](http://www.yinwang.org/)
 
 - ### Other Awesome Lists
     + [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
@@ -210,6 +215,8 @@
     + [简短代码段](https://www.30secondsofcode.org/)
     + [关于React生态系统的很棒的东西的集合](https://github.com/enaqx/awesome-react)
     + [前端开发常用免费资源，显著提升工作效率](https://juejin.im/post/6875943665597546510)
+    + [在线接码平台](./phone.md)
 
 - ### 远程工作
     + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
+    + [中国远程工作资料大全](https://github.com/greatghoul/remote-working)
