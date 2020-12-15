@@ -7,6 +7,10 @@
     + [Lighthouse – 前端性能优化测试工具](https://github.com/GoogleChrome/lighthouse)
     + [借助来自web.dev对网站性能进行指导和分析](https://web.dev/)
     + [seo优化](http://tools.bugscaner.com/seo/)
+    + [性能测试网站 - GTmetrix](https://gtmetrix.com/)
+
+- ### Node
+    + [分析npm package的依赖、bundle后的大小、下载速度预估等](https://bundlephobia.com)
 
 - ### 大数据
     + [Mysql-官方文档(关于优化部分)](https://dev.mysql.com/doc/refman/5.7/en/optimization.html)
@@ -32,6 +36,7 @@
     + [Apache OpenWhisk是一个无服务器的基于事件的编程服务和一个Apache Incubator项目](https://github.com/apache/openwhisk)
     + [OpenFaaS - 无服务器功能变得简单](https://github.com/openfaas/faas)
     + [一个提供免费HTTPS证书申请的网站](https://freessl.cn)
+    + [免费的ssl](https://zerossl.com )
 
 - ### 后端
     + [企业级的Node框架](https://eggjs.org/)
@@ -82,6 +87,7 @@
     + [React动画库](https://github.com/react-spring/react-spring)
     + [css动画效果](https://animista.net/)
     + [css控制容器形状](https://www.blobmaker.app/)
+    + [创建CSS滚动阴影](https://github.com/stefanjudis/css-scroll-shadows)
 
 - ### 大数据
     + [ElasticSearch是一个基于Lucene的搜索服务器](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/)
@@ -140,6 +146,9 @@
     + [有趣的javascript编码,可以用于加密](http://www.jsfuck.com/)
     + [Linux Journal](https://www.linuxjournal.com/)
     + [本地隧道服务器](https://github.com/localtunnel/server)
+    + [移动浏览器的控制台](https://github.com/liriliri/eruda)
+    + [网站监控](https://www.statuscake.com)
+    + [提供用户脚本](https://greasyfork.org/)
 
 - ### 日常办公
     + [石墨文档](https://shimo.im)
@@ -149,6 +158,7 @@
     + [简单好用的线上 PDF 工具](https://smallpdf.com/cn)
     + [语雀是一款知识创作工具](https://www.yuque.com/)
     + [图灵VPN](https://github.com/YoungBoy0048/Android-VPN)
+    + [MySlide 是一个提供PPT分享服务的平台，在这里你可以找到你想要的PPT。](https://myslide.cn/)
 
 - ### 插件库
     + [jQuery插件库-收集最全最新最好的jQuery插件](http://www.jq22.com/)
@@ -173,6 +183,7 @@
     + [Django 中文文档](https://docs.pythontab.com/django/django1.5/)
     + [Jinja2中文手册](https://docs.pythontab.com/jinja/jinja2/)
     + [Git中文手册](https://docs.pythontab.com/github/gitbook/)
+    + [（编程之道）中英双语版](https://github.com/yikeke/tao-of-programming)
 
 - ### 设计相关
     + [免费正版高清图片素材库](https://pixabay.com/zh/)
@@ -184,6 +195,9 @@
     + [Generate Soft-UI CSS code  生成立体的css效果](https://neumorphism.io/)
     + [生成好看的代码片段](https://carbon.now.sh/)
     + [使用AI将任何手绘设计转换为HTML代码](https://sketch2code.azurewebsites.net/)
+    + [IconPark提供了超过1400个高质量图标](https://github.com/bytedance/IconPark)
+    + [漂亮的CSS 3D转换示例](https://polypane.app/css-3d-transform-examples/)
+    + [超过33,000种高质量的免费svg图标和工具的集合](https://github.com/uuware/icons-font-customization)
 
 - ### 一些好看的效果
     + [三维地图](http://globe.cid.harvard.edu/)
@@ -216,6 +230,7 @@
     + [关于React生态系统的很棒的东西的集合](https://github.com/enaqx/awesome-react)
     + [前端开发常用免费资源，显著提升工作效率](https://juejin.im/post/6875943665597546510)
     + [在线接码平台](./phone.md)
+    + [路过图床-高速稳定的图片上传和外链服务](https://imgchr.com/)
 
 - ### 远程工作
     + [Open Collective 让您管理您的财务，让所有人都能看到资金从何而来，用在何处。](https://opencollective.com/)
